@@ -1,0 +1,66 @@
+# M-Pad
+### Media-Pad (Media-Hackpad)
+
+A Hackpad but this time made for media with 3 dedicated keys for Back, Play/Pause, and Skip along with volume controls via a rotary encoder.
+Powered by kmk on circuitpython
+
+<div>
+    <img src="./assets/render.png" style="width: 100%; height: auto;" />
+    <div style="display: inline-flex; justify-content: space-between; margin-top: 10px;">
+        <img src="./assets/schematic.png" style="width: 49%; padding-right: 0.5%; height: auto;" />
+        <img src="./assets/pcb.png" style="width: 49%; padding-left: 0.5%; height: auto;" />
+    </div>
+</div>
+
+### Key Mappings
+---
+<div style="display: inline-flex; justify-content: space-between;">
+    <div style="border-right: 1px solid #888; padding-right: 10px; margin-right: 10px;">
+        <strong>Key Switches</strong>
+        <table>
+            <thead>
+                <tr>
+                    <th>Function</th>
+                    <th>Key</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Back</td><td>KC.WBAK</td></tr>
+                <tr><td>Play/Pause</td><td>KC.MPLY</td></tr>
+                <tr><td>Skip</td><td>KC.WFWD</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <strong>Encoder Mapping</strong>
+        <table>
+            <thead>
+                <tr>
+                    <th>Function</th>
+                    <th>Key</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Volume Down</td><td>KC.VOLD</td></tr>
+                <tr><td>Volume Up</td><td>KC.VOLU</td></tr>
+                <tr><td>Mute</td><td>KC.MUTE</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+### BOM
+---
+- [BOM](./assets/BOM.csv)
+- [LCSC Component BOM](./assets/LCSC_BOM.csv)
+
+### Getting Started
+1. Download the latest release of circuitpython from [here](https://downloads.circuitpython.org/bin/seeeduino_xiao_rp2040/en_GB/adafruit-circuitpython-seeeduino_xiao_rp2040-en_GB-10.3.0.uf2)
+2. whilst powering the Seeed Studio XIAO RP2040, hold down the boot button and plug it into your computer. The board should show up as a USB drive called `RPI-RP2`.
+3. Drag and drop the downloaded UF2 file onto the `RPI-RP2` drive. The board will reboot and show up as a USB drive called `CIRCUITPY`.
+4. drag and drop the contents of the [`firmware`](./firmware) folder onto the `CIRCUITPY` drive.
+5. Restart the board and it should now be ready to use.
+
+### Want to edit the code
+1. Hold the middle switch whilst plugging in the board to your computer. The board should show up as a USB drive called `CIRCUITPY`.
+2. Edit it as if it is a normal drive. 
