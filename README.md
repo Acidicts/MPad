@@ -12,6 +12,11 @@ Powered by kmk on circuitpython
     </div>
 </div>
 
+### Case
+- The lid is [here](./case/Lid.step)
+- The case is [here](./case/Case.step)
+- Fusion 360 file is [here](https://a360.co/4gD1b6e)
+
 ### Key Mappings
 ---
 <div style="display: inline-flex; justify-content: space-between;">
