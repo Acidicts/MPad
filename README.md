@@ -66,6 +66,23 @@ Powered by kmk on circuitpython
 4. drag and drop the contents of the [`firmware`](./firmware) folder onto the `CIRCUITPY` drive.
 5. Restart the board and it should now be ready to use.
 
+~ Note It is configured for getting stock prices edit the firmware to do as you see fit
+
+### Soldering Guide
+~ Note the capacitors and resistors on the pcb are optional, as they are for decoupling and filtering
+1. Use flux on the surface of the pads
+2. Place LEDS reverse mounted
+3. Solder them
+4. Position the diodes with the side with the line facing the same way as in the silk screen
+5. Solder them on
+6. Solder the ssd1306 oled display (128x32) so the long legs for it stick down
+7. Place the m3 screw in the hole then put oled display over top and solder it on
+8. Solder on the Xiao
+9. solder on the keycaps
+10. If you don't have the resistor, bridge the gap using solder
+11. push in the EC11E rotary encoder and solder in
+12. You're done!!!
+
 ### Want to edit the code
 1. Hold the middle switch whilst plugging in the board to your computer. The board should show up as a USB drive called `CIRCUITPY`.
 2. Edit it as if it is a normal drive. 
