@@ -93,5 +93,5 @@ Powered by kmk on circuitpython
 
 ### Demo video
 
-<video src="https://github.com/user-attachments/assets/f6ec7ba0-303e-4e55-a816-bbe138d55e2e" controls="controls" style="max-width: 100%;" title="Demo Video.mp4">
+<video src="https://github.com/user-attachments/assets/15901fed-9ee6-4e93-8e1c-391db2670cf7" controls="controls" style="max-width: 100%;" title="Demo Video.mp4">
 </video>
