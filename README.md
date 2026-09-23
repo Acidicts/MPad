@@ -5,6 +5,7 @@ A Hackpad but this time made for media with 3 dedicated keys for Back, Play/Paus
 Powered by kmk on circuitpython
 
 <div>
+    <img style="width:100%; height:auto;" alt="assembled model" src="https://github.com/user-attachments/assets/524932be-1635-4332-819d-bf78545a4c4e" />
     <img src="./assets/render.png" style="width: 100%; height: auto;" />
     <div style="display: inline-flex; justify-content: space-between; margin-top: 10px;">
         <img src="./assets/schematic.png" style="width: 49%; padding-right: 0.5%; height: auto;" />
@@ -89,3 +90,8 @@ Powered by kmk on circuitpython
 ### Want to edit the code
 1. Hold the middle switch whilst plugging in the board to your computer. The board should show up as a USB drive called `CIRCUITPY`.
 2. Edit it as if it is a normal drive. 
+
+### Demo video
+
+
+![video](https://github.com/user-attachments/assets/43171bf9-0a00-4b4c-a07b-7b04ef928fb9)
