@@ -15,6 +15,8 @@ Powered by kmk on circuitpython
 ### Case
 - The lid is [here](./case/Lid.step)
 - The case is [here](./case/Case.step)
+- The Custom encoder knob is [here](./case/Encoder_Knob.step)
+- The detachable stand that mounts in the two square holes in the back is [here](./case/Detachable_Stand.step)
 - Fusion 360 file is [here](https://a360.co/4gD1b6e)
 
 ### Key Mappings
@@ -67,6 +69,7 @@ Powered by kmk on circuitpython
 5. Restart the board and it should now be ready to use.
 
 ~ Note It is configured for getting stock prices edit the firmware to do as you see fit
+~ It uses [main.py](main.py) on the host to communicate over serial
 
 ### Soldering Guide
 ~ Note the capacitors and resistors on the pcb are optional, as they are for decoupling and filtering
