@@ -10,7 +10,7 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'Detachable_Stand.step',
-/* time_stamp */ '2026-09-23T16:56:57+01:00',
+/* time_stamp */ '2026-09-24T19:05:32+01:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.2',
@@ -525,7 +525,7 @@ SOLID_ANGLE_UNIT()
 #473=PRODUCT_DEFINITION_SHAPE('',$,#476);
 #474=SHAPE_REPRESENTATION('',(#300),#466);
 #475=PRODUCT_DEFINITION_CONTEXT('part definition',#480,'design');
-#476=PRODUCT_DEFINITION('2026-09-23-16-56-57-872','Detachable stand',#477,
+#476=PRODUCT_DEFINITION('2026-09-24-19-05-32-473','Detachable stand',#477,
 #475);
 #477=PRODUCT_DEFINITION_FORMATION('',$,#482);
 #478=PRODUCT_RELATED_PRODUCT_CATEGORY('Detachable stand',
@@ -535,7 +535,7 @@ SOLID_ANGLE_UNIT()
 #480=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #481=PRODUCT_CONTEXT('part definition',#480,'mechanical');
-#482=PRODUCT('2026-09-23-16-56-57-872','Detachable stand',$,(#481));
+#482=PRODUCT('2026-09-24-19-05-32-473','Detachable stand',$,(#481));
 #483=PRESENTATION_STYLE_ASSIGNMENT((#484));
 #484=SURFACE_STYLE_USAGE(.BOTH.,#485);
 #485=SURFACE_SIDE_STYLE('',(#486));
